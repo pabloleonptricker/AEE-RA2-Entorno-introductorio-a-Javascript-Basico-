@@ -1,15 +1,15 @@
 function sumar(num1, num2){
-    suma = num1 + num2;
+    let suma = num1 + num2;
     console.log(suma);
 }
 
 function restar(num1, num2){
-    resta = num1 - num2;
+    let resta = num1 - num2;
     console.log(resta);
 }
 
 function multiplicar(num1, num2){
-    multiplicacion = num1 * num2;
+    let multiplicacion = num1 * num2;
     console.log(multiplicacion);
 }
 

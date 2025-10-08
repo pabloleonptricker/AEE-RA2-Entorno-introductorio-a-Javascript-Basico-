@@ -15,9 +15,12 @@ function multiplicar(num1, num2){
 
 function dividir(num1, num2){
     if(num2 == 0){
-        console.log("No se puede dividir entre 0")}else{
+        console.log("No se puede dividir entre 0")}
+    else{
         division = num1 / num2;
-        console.log(division);
-        }
-    
+        console.log(division);}
 }
+sumar(7, 12);
+restar(300, 12);
+multiplicar(8, 7);
+dividir(8, 0);
